@@ -35,7 +35,7 @@ public class ConfigManager {
         for (String key : Objects.requireNonNull(worldSection).getKeys(false)) {
             ConfigurationSection worldConfig = Objects.requireNonNull(worldSection.getConfigurationSection(key));
             double centerX = worldConfig.getDouble("center-x");
-            double centerY = worldConfig.getDouble("center-y");
+            double centerY = worldConfig.getDouble("center-z");
             double baseSize = worldConfig.getDouble("base-size");
             double expandSize = worldConfig.getDouble("expand-size");
             long expandTime = worldConfig.getLong("expand-time");

@@ -3,19 +3,19 @@ auto-update: true
 worlds:
   world:
     center-x: 0
-    center-y: 0
+    center-z: 0
     base-size: 20000
     expand-size: 2
     expand-time: 30
   world_nether:
     center-x: 0
-    center-y: 0
+    center-z: 0
     base-size: 20000
     expand-size: 2
     expand-time: 30
   world_the_end:
     center-x: 0
-    center-y: 0
+    center-z: 0
     base-size: 20000
     expand-size: 2
     expand-time: 30
