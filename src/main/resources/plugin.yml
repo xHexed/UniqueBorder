@@ -1,0 +1,12 @@
+author: xHexed
+name: UniqueBorders
+main: com.github.xhexed.uniqueborder.UniqueBorders
+version: ${project.version}
+api-version: "1.13"
+commands:
+  uniqueborders:
+    usage: /uniqueborders
+    aliases: [ub, uborder, uniqueborder]
+permissions:
+  ub.reload:
+    default: op
